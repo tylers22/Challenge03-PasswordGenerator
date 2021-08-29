@@ -20,44 +20,46 @@ var passwordPrompts = function () {
       // Special characters prompt
       var confirmSpecial = confirm('Would you like to include special characters?');
         console.log(confirmSpecial);
+
+      var Ellowercase = "abcdefghijklmnopqrstuvwxyz";
+
+      var Eluppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+      var ElNumber = "1234567890";
+
+      var ElSpecial = "!@#$%^&*()";
+
 }
 
 
     /* // you need to figure out how to retriev and use the charCount length
 
     if (confirmLower === true) {
-      //then use this  ElconfimrLower = "abcdefghijklmnopqrstuvwxyz";
+      //then use this Ellowercase
     }
       else {
         //do not include a lowercase;
       };
 
     if (confirmUpper === true) {
-      //then use this  ElconfirmUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      //then use this Eluppercase;
     }
       else {
         //do not include a uppercase;
       }
 
     if (confirmNumber === true) {
-      //then use this  ElconfirmNumbers = "1234567890";
+      //then use this  Elnumber;
     }
       else {
-        //do not include a uppercase;
+        //do not include a number;
       }
 
-    if (confirmNumber === true) {
-      //then use this  ElconfirmNumbers = "1234567890";
-    }
-      else {
-        //do not include a uppercase;
-      }
-    
     if (confirmSpecial === true) {
-      //then use this  ElconfirmSpecial = "!@#$%^&*()"; 
+      //then use this  ElSpecial; 
     }
       else {
-        //do not include a uppercase;
+        //do not include a special;
       }
       */
 
